@@ -8,7 +8,7 @@ header {
     justify-content: space-between;
 }
 
-h1 {
+header h1 {
     width: 123px;
     margin-left: 115px;
     font-family: "Roboto", serif;
