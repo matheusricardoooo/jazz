@@ -10,7 +10,6 @@ header {
 
 header h1 {
     width: 123px;
-    margin-left: 115px;
     font-family: "Roboto", serif;
     font-weight: 900;
     font-size: 2.5rem;
@@ -19,7 +18,7 @@ header h1 {
 nav {
     display: flex;
     gap: 60px;
-    padding-left: 50px;
+    margin-left: 150px;
 }
 
 nav a {
@@ -45,7 +44,7 @@ nav img {
     height: 48px;
     margin-right: 94px;
     background-color: #ED4D1B;
-    box-shadow: 5px 5px 5px #1E1E1E;
+    box-shadow: 4px 4px #1E1E1E;
     font-family: "Roboto", serif;
     font-size: 1.25rem;
     font-weight: 500;
@@ -79,8 +78,7 @@ nav img {
     }
 
     h1 {
-        margin: 0;
-        padding-left: 20px;
+        margin-left: 20px;
         font-size: 1.3rem;
     }
 }
