@@ -45,3 +45,38 @@ main {
 #conteudo .btn2 button:hover {
     transform: scale(1.2);
 }
+
+@media screen and (max-width: 500px) {
+
+    main {
+        flex-direction: column-reverse;
+        margin: 0;
+        margin-left: 20px;
+    }
+
+    #img-intro img {
+        width: 328px;
+        height: 220.97px;
+        padding-top: 40px;
+    }
+
+    #conteudo h1 {
+        width: 270px;
+        padding: 0;
+        margin-left: 50px;
+        margin-top: 40px;
+    }
+
+    #conteudo p {
+        padding: 0;
+        margin-top: 40px;
+        margin-left: 60px;
+        font-size: 1rem;
+        width: 250px;
+    }
+
+    #conteudo .btn2 {
+        padding: 0;
+        padding: 40px 0px 30px 55px;
+    }
+}
