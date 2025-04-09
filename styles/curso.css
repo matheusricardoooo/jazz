@@ -1,0 +1,173 @@
+article {
+    width: 90%;
+    height: 866px;
+    border: 1px solid #000000;
+    margin-left: 60px;
+}
+
+#cursos {
+    display: flex;
+    padding-inline: 94px;
+    margin-top: 80px;
+    gap: 20px;
+}
+
+#piano {
+    width: 110%;
+    border: 3px solid #000000;
+    box-shadow: 4px 4px #000000;
+    background-color: #ED4D1B;
+}
+
+#piano img {
+    padding: 27px 0px 0px 33px;
+}
+
+#piano h1 {
+    width: 211px;
+    font-weight: 900;
+    font-size: 1.5rem;
+    padding: 16px 0px 0px 33px;
+}
+
+#piano p {
+    width: 260px;
+    font-weight: 600;
+    padding: 16px 0px 0px 34px;
+}
+
+.seta {
+    padding-left: 158px;
+    transition: 0.3s;
+}
+
+.seta:hover {
+    transform: scale(1.1);
+}
+
+#teoria {
+    width: 110%;
+    border: 3px solid #000000;
+    box-shadow: 4px 4px #000000;
+    background-color: #FF9A3C;
+    margin-top: 30px;
+}
+
+#teoria img {
+    padding: 27px 0px 0px 33px;
+}
+
+#teoria h1 {
+    width: 200px;
+    font-weight: 900;
+    font-size: 1.5rem;
+    padding: 16px 0px 0px 33px;
+}
+
+#teoria p {
+    font-weight: 600;
+    padding: 16px 0px 0px 34px;
+}
+
+.seta2 {
+    padding-left: 158px;
+    transition: 0.3s;
+}
+
+.seta2:hover {
+    transform: scale(1.1);
+}
+
+#sax {
+    width: 110%;
+    border: 3px solid #000000;
+    box-shadow: 4px 4px #000000;
+    background-color: #ED4D1B;
+}
+
+#sax img {
+    padding: 27px 0px 0px 33px;
+}
+
+#sax h1 {
+    width: 200px;
+    font-weight: 900;
+    font-size: 1.5rem;
+    padding: 16px 0px 0px 33px;
+}
+
+#sax p {
+    width: 250px;
+    font-weight: 600;
+    padding: 16px 0px 0px 34px;
+}
+
+.seta3 {
+    padding: 50px 0px 0px 164px;
+    transition: 0.3s;
+}
+
+.seta3:hover {
+    transform: scale(1.1);
+}
+
+#drums {
+    width: 110%;
+    border: 3px solid #000000;
+    box-shadow: 4px 4px #000000;
+    background-color: #FF9A3C;
+    margin-top: 30px;
+}
+
+#drums img {
+    padding: 27px 0px 0px 33px;
+}
+
+#drums h1 {
+    font-weight: 900;
+    font-size: 1.5rem;
+    padding: 16px 0px 0px 33px;
+}
+
+#drums p {
+    width: 250px;
+    font-weight: 600;
+    padding: 16px 0px 0px 34px;
+}
+
+.seta4 {
+    padding-left: 164px;
+    transition: 0.3s;
+}
+
+.seta4:hover {
+    transform: scale(1.1);
+}
+
+#courses {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 158px;
+}
+
+#courses h1 {
+    font-weight: 900;
+    font-size: 3.2rem;
+}
+
+#courses button {
+    width: 225px;
+    height: 48px;
+    background-color: #ED4D1B;
+    border: 2px solid #000000;
+    box-shadow: 4px 4px #000000;
+    margin-top: 64px;
+    font-weight: 500;
+    font-size: 1.25rem;
+    transition: 0.3s;
+}
+
+#courses button:hover {
+    transform: scale(1.1);
+}
